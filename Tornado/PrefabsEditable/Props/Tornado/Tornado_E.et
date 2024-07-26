@@ -1,0 +1,35 @@
+GenericEntity {
+ ID "61F4CD1E2EA95914"
+ components {
+  MeshObject "{61F4CD1E2EA95931}" {
+   Object "{8E0E1D4A01218188}Assets/Props/tornadoF3.xob"
+  }
+  RigidBody "{61F4CD1E2EA952AA}" {
+   ModelGeometry 1
+  }
+  SCR_EditableEntityComponent "{61F4CD1E6B214ED9}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{61F4CD1F84C86F95}" {
+    Name "Tornado GR1"
+    m_Image "{CF6FDADDEAF742EA}Tornado IMAGE.edds"
+    m_aAuthoredLabels {
+     1001
+    }
+    m_aAutoLabels {
+     1 123
+    }
+   }
+   m_sIconBoneName "Tornado GR1"
+   m_bAutoRegister ALWAYS
+   m_Flags 321
+  }
+  SCR_PreviewEntityComponent "{61F4CD1E65B8C87C}" {
+   m_aEntries {
+    SCR_BasePreviewEntry "{61F4D1F51677CE46}" {
+     m_Mesh "{8E0E1D4A01218188}Assets/Props/tornadoF3.xob"
+     m_Shape MESH
+    }
+   }
+  }
+ }
+ coords 101.197 3.147 94.631
+}
