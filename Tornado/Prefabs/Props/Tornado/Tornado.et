@@ -1,0 +1,12 @@
+GenericEntity {
+ ID "61F4B5CF9A024DC6"
+ components {
+  MeshObject "{61F4B5C99230B445}" {
+   Object "{8E0E1D4A01218188}Assets/Props/tornadoF3.xob"
+  }
+  RigidBody "{61F4B5C817ADCD5A}" {
+   ModelGeometry 1
+  }
+ }
+ coords 101.197 3.147 94.631
+}

@@ -1,2 +1,6 @@
-MatPBRBasic {
+MatPBRBasicGlass {
+ SurfaceProperties "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+ BCRMap "{818BF9EF00F714A5}Assets/Props/Data/Tornado_Glass_BCR.edds"
+ OpacityMap "{69B0D57FC856FE51}Assets/Props/Data/Tornado_Glass_A.edds"
+ NMOMap "{B953427DD980463B}Assets/Props/Data/Tornado_Glass_NMO.edds"
 }

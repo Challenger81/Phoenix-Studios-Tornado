@@ -1,2 +1,4 @@
 MatPBRBasic {
+ BCRMap "{419AB9ADBA8295AD}Assets/Props/Data/Tornado_Cockpit_BCR.edds"
+ NMOMap "{7942023F63F5C733}Assets/Props/Data/Tornado_Cockpit_NMO.edds"
 }

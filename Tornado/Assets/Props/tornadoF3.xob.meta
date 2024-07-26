@@ -23,7 +23,7 @@ MetaFileClass {
     }
     MaterialAssignClass "{61F33C4AE74FE36F}" {
      SourceMaterial "Tornado_Glass"
-     AssignedMaterial "{CA04CFF8FA857B8D}Assets/Props/Furniture/Bookshelf_01/data/Bookshelf_01_Glass.emat"
+     AssignedMaterial "{9B0C4EDAEF723AAC}Assets/Props/Data/Tornado_Glass.emat"
     }
    }
    MeshParams {

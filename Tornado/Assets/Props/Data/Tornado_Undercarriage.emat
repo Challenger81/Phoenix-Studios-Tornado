@@ -1,2 +1,4 @@
 MatPBRBasic {
+ BCRMap "{EFC460FD858D02C4}Assets/Props/Data/Tornado_Undercarriage_BCR.edds"
+ NMOMap "{D71CDB6F5CFA505A}Assets/Props/Data/Tornado_Undercarriage_NMO.edds"
 }
