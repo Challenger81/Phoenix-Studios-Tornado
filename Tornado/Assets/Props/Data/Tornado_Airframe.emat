@@ -1,2 +1,4 @@
 MatPBRBasic {
+ BCRMap "{5D267363CEB3295F}Assets/Props/Data/Tornado_Airframe_BCR.edds"
+ NMOMap "{65FEC8F117C47BC1}Assets/Props/Data/Tornado_Airframe_NMO.edds"
 }
