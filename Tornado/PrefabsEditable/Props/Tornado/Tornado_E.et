@@ -5,6 +5,7 @@ GenericEntity {
    Object "{8E0E1D4A01218188}Assets/Props/tornadoF3.xob"
   }
   RigidBody "{61F4CD1E2EA952AA}" {
+   Gravity 0
    ModelGeometry 1
   }
   SCR_EditableEntityComponent "{61F4CD1E6B214ED9}" {
@@ -29,6 +30,8 @@ GenericEntity {
      m_Shape MESH
     }
    }
+  }
+  RplComponent "{61F4D8923CFBD2C0}" {
   }
  }
  coords 101.197 3.147 94.631
