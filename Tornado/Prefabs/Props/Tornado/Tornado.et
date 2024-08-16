@@ -5,7 +5,17 @@ GenericEntity {
    Object "{8E0E1D4A01218188}Assets/Props/tornadoF3.xob"
   }
   RigidBody "{61F4B5C817ADCD5A}" {
+   Gravity 0
    ModelGeometry 1
+  }
+  SCR_EditableEntityComponent "{622104B6644C7739}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{622104B7B8798B64}" {
+    Name "Tornado.et"
+    m_aAuthoredLabels {
+     1001
+    }
+   }
+   m_Flags PLACEABLE
   }
  }
  coords 101.197 3.147 94.631
