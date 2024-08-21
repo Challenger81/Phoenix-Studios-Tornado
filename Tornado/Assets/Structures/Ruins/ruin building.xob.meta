@@ -1,0 +1,63 @@
+MetaFileClass {
+ Name "{9D2B3E6AC0501804}Assets/Structures/Ruins/ruin building.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{622A9628D28F5CC6}" {
+     SourceMaterial "__ruin_01"
+     AssignedMaterial "{8B56A58B829607A3}Assets/Structures/Houses/Village/House_Village_E_1I01/Data/House_E_1I01_exterior_ruin.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "1" {
+    }
+    MeshParam "2" {
+    }
+    MeshParam "3" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Building {
+     LayerPreset "BuildingFireView"
+     SurfaceProperties {
+      "{B393F062AAE9EB74}Common/Materials/Game/brick.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Ground {
+     LayerPreset "Terrain"
+     SurfaceProperties {
+      "{561F9D5A365B9BDC}Common/Materials/Game/cobblestone.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{622A9628D293DD23}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{622A9628D293C514}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{622A9628D293BADE}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{622A9628D293B9EC}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{622A9628D293B8F0}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{622A9628D293BF6A}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

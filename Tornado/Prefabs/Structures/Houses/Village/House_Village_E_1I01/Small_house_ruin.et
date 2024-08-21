@@ -1,0 +1,57 @@
+SCR_DestructibleBuildingEntity : "{A43A100E3C377DB2}Prefabs/Structures/Core/Building_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{506EDA9D46FC6C06}" {
+   Object "{9D2B3E6AC0501804}Assets/Structures/Ruins/ruin building.xob"
+  }
+  RigidBody "{506EDA9CBE1B57FF}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords -13.054 -9.037 37.262
+ SlotBoneMappings {
+  SlotBoneMappingObject "{622A962ABB141099}" {
+   BonePrefix "socket_door_int"
+   Prefab "{3001595FE0D14B45}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_INT_COV_B.et"
+  }
+  SlotBoneMappingObject "{622A962ABB1410BF}" {
+   BonePrefix "socket_win_195x142"
+   Prefab "{0B1A0417822E5D17}Prefabs/Structures/BuildingParts/Windows/win_village_E_A_195x142_3_B_brown.et"
+  }
+  SlotBoneMappingObject "{622A962ABB1410A3}" {
+   BonePrefix "socket_win_130x142"
+   Prefab "{B84D23179189632D}Prefabs/Structures/BuildingParts/Windows/win_village_E_A_130x142_2_B_brown.et"
+  }
+  SlotBoneMappingObject "{622A962ABB1410AE}" {
+   BonePrefix "socket_win_70x72"
+   Prefab "{E3FB73537278FFD6}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_70x72_1_B_brown.et"
+  }
+  SlotBoneMappingObject "{622A962ABB141756}" {
+   BonePrefix "socket_win_70x47"
+   Prefab "{FDB2D57F500A97B2}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_70x47_1_B_brown.et"
+  }
+  SlotBoneMappingObject "{622A962ABB14175D}" {
+   BonePrefix "socket_win_45x72"
+   Prefab "{93CC1DE04485F4CB}Prefabs/Structures/BuildingParts/Windows/Win_village_e_a_45x72_1_B_brown.et"
+  }
+  SlotBoneMappingObject "{622A962ABB14175B}" {
+   BonePrefix "socket_door_ext_01"
+   Prefab "{3F9C5D8889FB5EC2}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_M1_brown.et"
+  }
+  SlotBoneMappingObject "{622A962ABB141741}" {
+   BonePrefix "socket_door_ext_02"
+   Prefab "{CC6B92AEE60F0AAC}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_R_EXT_COV_B_brown.et"
+  }
+  SlotBoneMappingObject "{622A962ABB14174D}" {
+   BonePrefix "socket_entry"
+   Prefab "{F5589597452FE918}PrefabLibrary/Infrastructure/Stairs/ConcreteStairs_02_Narrow.et"
+  }
+ }
+ {
+  EnvironmentProbeEntity : "{565470F7BA530E0D}Prefabs/Structures/Core/ProbeHouse_Base.et" {
+   ID "622A962ABB1410F9"
+   coords 1.106 1.86 -2.963
+  }
+ }
+}

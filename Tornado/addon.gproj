@@ -1,7 +1,7 @@
 GameProject {
- ID "Tornado"
+ ID "Props"
  GUID "61F33123BC94261E"
- TITLE "Phoenix Studios: Tornado"
+ TITLE "Phoenix Studios: Map Maker Pack"
  Dependencies {
   "58D0FB3206B6F859"
  }
