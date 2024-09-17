@@ -2,13 +2,13 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
  ID "F0DBA538AC2A0552"
  components {
   MeshObject "{5872F0EB7FA40561}" {
-   Object "{350F47FD442B0757}Assets/Props/Naval/Boat/RussianBoat.xob"
+   Object "{8745DF10AD7716B6}Assets/Props/Wrecks/SU25Wreck/SU25Wreck.xob"
   }
   RigidBody "{5872F0EB7DFB5A9D}" {
    Static 1
   }
-  SCR_EditableEntityComponent "{622A84799AF10B91}" {
-   m_UIInfo SCR_EditableEntityUIInfo "{622A84793A760E91}" {
+  SCR_EditableEntityComponent "{6248F9A2B11A9C16}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6248F9A2B11A9C0A}" {
     Name "ZSU Wreck"
     m_Image "{3B81050F323E78FB}ZSU wreck.edds"
     m_aAuthoredLabels {
@@ -21,15 +21,15 @@ GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
    m_bAutoRegister ALWAYS
    m_Flags 321
   }
-  SCR_PreviewEntityComponent "{622A847989035620}" {
+  SCR_PreviewEntityComponent "{6248F9A2B11A9C20}" {
    m_aEntries {
-    SCR_BasePreviewEntry "{622A847E7DFFA63E}" {
+    SCR_BasePreviewEntry "{6248F9A2B11A9C2F}" {
      m_Mesh "{8EA081157A786E12}Assets/Props/Wrecks/ZSUWreck/ZSUWreck.xob"
      m_Shape MESH
     }
    }
   }
-  RplComponent "{622A8478513914B1}" {
+  RplComponent "{6248F9A2B11A9CD1}" {
   }
  }
 }

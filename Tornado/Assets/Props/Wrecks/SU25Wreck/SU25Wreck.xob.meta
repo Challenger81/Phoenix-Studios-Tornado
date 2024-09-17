@@ -1,0 +1,77 @@
+MetaFileClass {
+ Name "{8745DF10AD7716B6}Assets/Props/Wrecks/SU25Wreck/SU25Wreck.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{6248F9A0EE8CC820}" {
+     SourceMaterial "su25_body1_cdf_co"
+     AssignedMaterial "{DF2945A523A15209}Assets/Props/Wrecks/T62/Data/T62_Burned.emat"
+    }
+    MaterialAssignClass "{6248F9A0EE8CC8EE}" {
+     SourceMaterial "__default"
+     AssignedMaterial "{78D4A1DE1E13D80A}Assets/Decals/Miscellaneous/Damage/Damage_Burnt_03.emat"
+    }
+    MaterialAssignClass "{6248F9A0EE8CC896}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{3D5E57E07E98D5FE}Assets/Props/Wrecks/SU25Wreck/Data/DefaultGeneratedMaterial.emat"
+    }
+   }
+   MeshParams {
+    MeshParam LOD0 {
+    }
+    MeshParam LOD1 {
+    }
+    MeshParam LOD2 {
+    }
+    MeshParam LOD3 {
+    }
+    MeshParam LOD4 {
+    }
+    MeshParam LOD5 {
+    }
+    MeshParam LOD6 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Fireview {
+     SurfaceProperties {
+      "{AE2209236709A7E3} :: iron.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_prop {
+     SurfaceProperties {
+      "{6A2C945B1714C77E}su25_body1_cdf_co.tga :: su25_body1_destruct.gamemat"
+      "{6DDB9EE62326E655} :: default.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6248F9A0EE27A8B5}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6248F9A0EE279133}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6248F9A0EE2796FC}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6248F9A0EE279465}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6248F9A0EE278B6F}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6248F9A0EE278A5B}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

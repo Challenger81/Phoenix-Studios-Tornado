@@ -1,0 +1,35 @@
+GenericEntity : "{3619812B192CCAE9}Prefabs/Props/Core/Wreck_Base.et" {
+ ID "F0DBA538AC2A0552"
+ components {
+  MeshObject "{5872F0EB7FA40561}" {
+   Object "{8D7A9DE08D120D25}Assets/Props/Naval/Boat/RussianBoat.xob"
+  }
+  RigidBody "{5872F0EB7DFB5A9D}" {
+   Static 1
+  }
+  SCR_EditableEntityComponent "{6261327FA1C1B7B5}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{6261327FA1C1B7A7}" {
+    Name "Grachonok Class Boat"
+    m_Image "{E88DC0372FC14CA9}Grachonok Boat prop.edds"
+    m_aAuthoredLabels {
+     1001
+    }
+    m_aAutoLabels {
+     1 71
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_Flags 321
+  }
+  SCR_PreviewEntityComponent "{6261327FA1C1B7A9}" {
+   m_aEntries {
+    SCR_BasePreviewEntry "{6261327FA1C1B7AB}" {
+     m_Mesh "{8D7A9DE08D120D25}Assets/Props/Naval/Boat/RussianBoat.xob"
+     m_Shape MESH
+    }
+   }
+  }
+  RplComponent "{6261327FA1C1B654}" {
+  }
+ }
+}

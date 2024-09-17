@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EBD43D53A8FE9E14}Assets/Props/Wrecks/ZSUWreck/Data/zsu_02_co.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

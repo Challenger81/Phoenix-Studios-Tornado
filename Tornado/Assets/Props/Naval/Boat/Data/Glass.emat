@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.091 0.093 0.15 1
+ Cull none
+ Sort translucent
+}

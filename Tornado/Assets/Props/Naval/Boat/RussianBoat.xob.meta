@@ -1,0 +1,90 @@
+MetaFileClass {
+ Name "{8D7A9DE08D120D25}Assets/Props/Naval/Boat/RussianBoat.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   MaterialAssigns {
+    MaterialAssignClass "{6262F92B1F1F701A}" {
+     SourceMaterial "MainColor"
+     AssignedMaterial "{E18985F320041AE8}Assets/Props/Naval/Boat/Data/MainColor.emat"
+    }
+    MaterialAssignClass "{6262F92B1F1F70DD}" {
+     SourceMaterial "White"
+     AssignedMaterial "{D7D2A0243605D1F1}Assets/Props/Naval/Boat/Data/White.emat"
+    }
+    MaterialAssignClass "{6262F92B1F1F70D8}" {
+     SourceMaterial "Black"
+     AssignedMaterial "{AE87292496DD7176}Assets/Props/Naval/Boat/Data/Black.emat"
+    }
+    MaterialAssignClass "{6262F92B1F1F70C0}" {
+     SourceMaterial "Glass"
+     AssignedMaterial "{BAAB6090A4E3EF40}Assets/Props/Naval/Boat/Data/Glass.emat"
+    }
+    MaterialAssignClass "{6262F92B1F1F70CC}" {
+     SourceMaterial "Floor"
+     AssignedMaterial "{AF8C31A384135E93}Assets/Props/Naval/Boat/Data/Floor.emat"
+    }
+    MaterialAssignClass "{6262F92B1F1F70FA}" {
+     SourceMaterial "GlassRed"
+     AssignedMaterial "{91CE76809303BC19}Assets/Props/Naval/Boat/Data/GlassRed.emat"
+    }
+    MaterialAssignClass "{6262F92B1F1F70E0}" {
+     SourceMaterial "Orange"
+     AssignedMaterial "{685628344370D28E}Assets/Props/Naval/Boat/Data/Orange.emat"
+    }
+    MaterialAssignClass "{6262F92B1F1F70EE}" {
+     SourceMaterial "Gray"
+     AssignedMaterial "{F43552121EC4F349}Assets/Props/Naval/Boat/Data/Gray.emat"
+    }
+    MaterialAssignClass "{6262F92B1F1F7094}" {
+     SourceMaterial "Rubber"
+     AssignedMaterial "{0AADD89417764F86}Assets/Props/Wrecks/M113/Data/M113_wreck_Rubber.emat"
+    }
+    MaterialAssignClass "{6262F92B1F1F7092}" {
+     SourceMaterial "Red"
+     AssignedMaterial "{327FF325D0BDAFA2}Assets/Props/Naval/Boat/Data/Red.emat"
+    }
+    MaterialAssignClass "{6262F92B1F1F70B4}" {
+     SourceMaterial "Copper"
+     AssignedMaterial "{BB4930E3B719D869}Assets/Props/Naval/Boat/Data/Copper.emat"
+    }
+   }
+   MeshParams {
+    MeshParam LOD0 {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Collisions {
+     LayerPreset "PropFireView"
+     SurfaceProperties {
+      "{CE9253778DD8FBDE}Common/Materials/Game/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{6262F92B1BEB13D0}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{6262F92B1BEB106C}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{6262F92B1BEB10B2}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{6262F92B1BEB170D}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{6262F92B1BEB1794}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{6262F92B1BEB167E}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}
